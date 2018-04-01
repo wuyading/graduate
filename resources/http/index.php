@@ -28,7 +28,7 @@
     <ul class="nav-info index clearfix">
         <li><a href="<?=toRoute('/')?> ">首页</a></li>
         <li><a href=<?=toRoute('/news/index')?> >动态资讯</a></li>
-        <li><a href=<?=toRoute('/areas/index')?> >两地风貌</a></li>
+        <li><a href=<?=toRoute('/areas/index')?> >公司简介</a></li>
         <li><a href=<?=toRoute('/expert/index')?> >专家风采</a></li>
         <li><a href=<?=toRoute('/project/index')?> >对接项目</a></li>
         <li><a href=<?=toRoute('/activity/index')?> >活动剪影</a></li>
@@ -54,9 +54,9 @@
         <div class="title-line"></div>
     </div>
     <ul class="dynamic-nav clearfix">
-        <li class="nav-fast active">铜仁行快讯</li>
-        <li class="nav-dy">铜仁动态</li>
-        <li class="nav-su">苏州资讯</li>
+        <li class="nav-fast active">公司新闻</li>
+        <li class="nav-dy">行业新闻</li>
+        <li class="nav-su">苏州新闻</li>
     </ul>
     <div class="dynamic-content itme1 clearfix">
         <div class="dynamic-img pull-left">

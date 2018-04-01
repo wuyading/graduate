@@ -8,7 +8,7 @@ return array(
     'default'=>array(
         'dsn' => 'mysql:host=localhost;dbname=kexie',
         'username' => 'root',
-        'password' => '123qwe',
+        'password' => '',
         'charset' => 'utf8',
 
         'enableSchemaCache' => true,
@@ -34,7 +34,7 @@ return array(
     'user' => [  //用户信息表
         'dsn' => 'mysql:host=localhost;dbname=kexie_user',
         'username' => 'root',
-        'password' => '123qwe',
+        'password' => '',
         'charset' => 'utf8',
         'attributes' => [PDO::ATTR_PERSISTENT => true],
 
@@ -46,7 +46,7 @@ return array(
     'category' => [
         'dsn' => 'mysql:host=localhost;dbname=kexie_category',
         'username' => 'root',
-        'password' => '123qwe',
+        'password' => '',
         'charset' => 'utf8',
         'attributes' => [PDO::ATTR_PERSISTENT => true],
 

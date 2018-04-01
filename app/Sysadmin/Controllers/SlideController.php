@@ -74,7 +74,7 @@ class SlideController extends Controller
                 $slide = Slide::findOne($data['id']);
                 if($slide){
                     $slide->setAttributes($data);
-                    $is_success = $slide->save();
+                    $is_success = $slide->update();
                 }else{
                     $is_success = false;
                 }

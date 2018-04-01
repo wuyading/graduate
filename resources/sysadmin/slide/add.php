@@ -61,8 +61,8 @@
                                         <th><span style="color: red">*</span>类型：</th>
                                         <td>
                                             <select class="form-control input-small inline c_first" name="type">
-                                                <option value="1" <?php if(isset($info['type'])==1) echo 'selected'; ?> >电脑端</option>
-                                                <option value="2" <?php if(isset($info['type'])==2) echo 'selected'; ?> >手机端</option>
+                                                <option value="1" <?php if(isset($info['type']) && $info['type']==1) echo 'selected'; ?> >电脑端</option>
+                                                <option value="2" <?php if(isset($info['type']) && $info['type']==2) echo 'selected'; ?> >手机端</option>
                                             </select>
                                         </td>
                                     </tr>

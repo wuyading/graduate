@@ -9,7 +9,7 @@
 <?=$app->view('@http/common/header');?>
 
 <div class="main-content">
-    <p class="apply-title">请输入您的项目信息，获得“铜仁行”的 专家团帮助</p>
+    <p class="apply-title">请输入您的项目信息，获得“江苏冬夏科技” 专家团帮助</p>
     <form id="applyForm" action="<?=toRoute('/index/ajax_save_project')?>">
         <div class="form-line">
             <label>项目名称：</label>
