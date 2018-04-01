@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : localhost
-Source Server Version : 50553
+Source Server         : 本地
+Source Server Version : 50629
 Source Host           : localhost:3306
 Source Database       : kexie
 
 Target Server Type    : MYSQL
-Target Server Version : 50553
+Target Server Version : 50629
 File Encoding         : 65001
 
-Date: 2018-03-30 17:35:16
+Date: 2018-04-01 23:33:49
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -189,10 +189,10 @@ CREATE TABLE `news` (
 -- ----------------------------
 -- Records of news
 -- ----------------------------
-INSERT INTO `news` VALUES ('1', '1', '14', '江苏冬夏中标园区某上市公司数据中心运维项目', '/upload/project/049e151a63d7a48c369b480bfe03de3f.png', '&#60;p&#62;&#60;span style=&#34;color: rgb(80, 80, 80); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&#34;&#62;近日，江苏冬夏成功中标园区某上市公司数据中心运维项目，项目内容涵盖核心网络，服务器，存储及虚拟化系统等&#60;/span&#62;&#60;/p&#62;', '1522292273', '0', '2');
+INSERT INTO `news` VALUES ('1', '1', '14', '江苏冬夏中标园区某上市公司数据中心运维项目', '/upload/project/049e151a63d7a48c369b480bfe03de3f.png', '&#60;p&#62;&#60;span style=&#34;color: rgb(80, 80, 80); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&#34;&#62;近日，江苏冬夏成功中标园区某上市公司数据中心运维项目，项目内容涵盖核心网络，服务器，存储及虚拟化系统等&#60;/span&#62;&#60;/p&#62;', '1522292273', '1', '2');
 INSERT INTO `news` VALUES ('2', '1', '14', '冬夏科技中标某韩企IP电话系统建设项目', '/upload/project/ead01a4c45ed23cead547c2318496964.jpeg', '&#60;p&#62;&#60;span style=&#34;color: rgb(80, 80, 80); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&#34;&#62;冬夏科技中标某韩企IP电话系统建设项目，近日，冬夏科技凭借丰富的Cisco IP电话系统实施经验，中标某韩企IP电话系统建设项目,该项目通过两套Cisco BE6K服务器实现Cisco CallManager Server冗余备份，保证IP电话系统的可用性&#60;/span&#62;&#60;/p&#62;', '1522292398', '0', '1');
 INSERT INTO `news` VALUES ('3', '1', '16', '姑苏区将办两场大型招聘会 提供岗位2295个', '/upload/project/0f4287a9d2cd6116604a6d206035e3e0.jpeg', '&#60;p&#62;&#60;span style=&#34;color: rgb(51, 51, 51); font-family: 宋体, &#38;quot;Arial Narrow&#38;quot;, arial, serif; font-size: 14px; text-indent: 28px; background-color: rgb(255, 255, 255);&#34;&#62;据悉，这两场招聘会总计提供岗位2295个，分别是2018年第一季“乐业姑苏·就业天堂”高校毕业生综合招聘会和苏州大学大型校园综合招聘会。其中，第一场高校毕业生综合招聘会将于3月25日上午9时在苏州市人才市场举行。届时，有77家企业面向社会端出1813个岗位。第二场苏州大学大型校园综合招聘会将于3月31日下午1时在苏大独墅湖校区二期公共体育楼举行。届时，有30家优质企业主要面向苏大学子提供涉及文化传媒类、网络软件类、教育科技类、销售管理类等岗位482个。具体岗位及招聘信息可登录中国姑苏网站人社局子端专栏“资料下载”栏进行查询。&#60;/span&#62;&#60;/p&#62;', '1522293633', '1', '1');
-INSERT INTO `news` VALUES ('9', '1', '15', '冬夏科技中标某外企外网安全网关防火墙项目', '/upload/project/9cfd0aff1f1eaeac4e01a785216c0b2c.jpeg', '&#60;p&#62;&#60;span style=&#34;color: rgb(80, 80, 80); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&#34;&#62;冬夏科技中标某外企外网安全网关防火墙项目，近日，冬夏科技成功中标某外企外网安全网关项目，该用户现有一套Juniper SSG防火墙，为了进一步提升&#60;/span&#62;&#60;span class=&#34;fontstyle0&#34; style=&#34;box-sizing: border-box; color: rgb(80, 80, 80); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&#34;&#62;应用可视性、入侵防御和威胁控制等安全服务功能，用户将现有防火墙升级为Juniper SRX 1500系列防火墙，并配备&#60;span class=&#34;fontstyle0&#34; style=&#34;box-sizing: border-box;&#34;&#62;Sky&#60;/span&#62;&#60;span class=&#34;fontstyle1&#34; style=&#34;box-sizing: border-box;&#34;&#62;高级威胁防护解决方案，&#38;nbsp;&#60;/span&#62;&#60;span class=&#34;fontstyle0&#34; style=&#34;box-sizing: border-box;&#34;&#62;为用户提供&#60;/span&#62;&#60;span class=&#34;fontstyle1&#34; style=&#34;box-sizing: border-box;&#34;&#62;非常精准地检测未知的恶意软件和零日威胁，同时提供自动保护。&#60;/span&#62;&#60;/span&#62;&#60;/p&#62;', '1522293262', '0', '1');
+INSERT INTO `news` VALUES ('9', '1', '15', '冬夏科技中标某外企外网安全网关防火墙项目', '/upload/project/9cfd0aff1f1eaeac4e01a785216c0b2c.jpeg', '&#60;p&#62;&#60;span style=&#34;color: rgb(80, 80, 80); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&#34;&#62;冬夏科技中标某外企外网安全网关防火墙项目，近日，冬夏科技成功中标某外企外网安全网关项目，该用户现有一套Juniper SSG防火墙，为了进一步提升&#60;/span&#62;&#60;span class=&#34;fontstyle0&#34; style=&#34;box-sizing: border-box; color: rgb(80, 80, 80); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&#34;&#62;应用可视性、入侵防御和威胁控制等安全服务功能，用户将现有防火墙升级为Juniper SRX 1500系列防火墙，并配备&#60;span class=&#34;fontstyle0&#34; style=&#34;box-sizing: border-box;&#34;&#62;Sky&#60;/span&#62;&#60;span class=&#34;fontstyle1&#34; style=&#34;box-sizing: border-box;&#34;&#62;高级威胁防护解决方案，&#38;nbsp;&#60;/span&#62;&#60;span class=&#34;fontstyle0&#34; style=&#34;box-sizing: border-box;&#34;&#62;为用户提供&#60;/span&#62;&#60;span class=&#34;fontstyle1&#34; style=&#34;box-sizing: border-box;&#34;&#62;非常精准地检测未知的恶意软件和零日威胁，同时提供自动保护。&#60;/span&#62;&#60;/span&#62;&#60;/p&#62;', '1522293262', '1', '1');
 INSERT INTO `news` VALUES ('10', '1', '15', '江苏冬夏中标园区某企业Oracle数据库升级项目', '/upload/project/fc8aa9873adb54a0200f1616503ef5d9.jpeg', '&#60;p&#62;&#60;span style=&#34;color: rgb(80, 80, 80); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&#34;&#62;近日，江苏冬夏信息科技发展有限公司成功中标某企业ERP系统Oracle数据库升级项目，该项目实施周期短，技术难度高，涉及的业务系统范围广，最终江苏冬夏凭借卓越的技术能力及商务能力赢得客户信任，以绝对优势成功中标。&#60;/span&#62;&#60;br/&#62;&#60;/p&#62;', '1522293344', '0', '1');
 INSERT INTO `news` VALUES ('11', '1', '15', '冬夏科技中标新区某上市公司无线仓储系统项目', '/upload/project/ef9c2c6734318aa74bbe5b7820270d89.jpeg', '&#60;p&#62;&#60;span style=&#34;color: rgb(80, 80, 80); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&#34;&#62;近日，冬夏科技成功中标新区某企业无线仓储项目，该项目利用汉明科技无线产品及解决方案为用户实现自动化仓储，为无线手持PDA实现全覆盖&#60;/span&#62;&#60;/p&#62;', '1522293520', '0', '1');
 INSERT INTO `news` VALUES ('14', '1', '16', '苏州体育职业技能培训单位增至9家', '/upload/project/b7d49ff0331b3051334f70ac4948bb02.jpeg', '&#60;p style=&#34;margin-top: 0px; margin-bottom: 14px; padding: 0px; line-height: 1.7; text-indent: 2em; color: rgb(51, 51, 51); font-size: 14px; font-family: 宋体, &#38;quot;Arial Narrow&#38;quot;, arial, serif; white-space: normal; background-color: rgb(255, 255, 255);&#34;&#62;去年，全市开展了游泳救生员、游泳教员、攀岩、健身教练、跆拳道、潜水等6个项目的2060人职业资格培训鉴定。今年，进一步面向羽毛球、健美操、武术等项目开展职业技能培训，培训单位增至9家。苏州市体育市场管理处处长严伟杰介绍，随着健身市场对人才的需求越来越旺盛，将尽快实现各个项目职业技能培训开展的常年化、日常化，确保高危体育项目经营从业人员持证上岗。而且，如果在参加培训过程中发现有违规行为，市民也可拨打苏州市体育市场管理处电话0512-65212811投诉。&#60;/p&#62;&#60;p style=&#34;margin-top: 0px; margin-bottom: 14px; padding: 0px; line-height: 1.7; text-indent: 2em; color: rgb(51, 51, 51); font-size: 14px; font-family: 宋体, &#38;quot;Arial Narrow&#38;quot;, arial, serif; white-space: normal; background-color: rgb(255, 255, 255);&#34;&#62;“游泳市场越来越火，去年仅开展2批次游泳教员培训已不能满足要求。”苏州市游泳协会秘书长陈均麒介绍，今年计划扩大规模，举办三批次以上的培训。此外全年均接受报名，报名人数达到40名就立即开班。&#60;/p&#62;&#60;p&#62;&#60;br/&#62;&#60;/p&#62;', '1522294065', '0', '1');
@@ -236,10 +236,11 @@ CREATE TABLE `slide` (
   `sortid` int(10) unsigned NOT NULL DEFAULT '1' COMMENT '排序',
   `type` tinyint(3) unsigned DEFAULT '0' COMMENT '类型 1pc 2 mobile',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COMMENT='首页幻灯片';
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='首页幻灯片';
 
 -- ----------------------------
 -- Records of slide
 -- ----------------------------
-INSERT INTO `slide` VALUES ('1', '轮播图', '/upload/slide/eb39b19264a9209b0d590b37c978f428.jpeg', '1522220179', '1', '1');
-INSERT INTO `slide` VALUES ('3', '轮播图', '/upload/slide/c3b1009b7e568d54dc92f8129e8439e4.jpeg', '1522220160', '1', '1');
+INSERT INTO `slide` VALUES ('1', '轮播图', '/upload/slide/e63aa832d5b7c63efcb781b2d6740fc6.png', '1522588363', '1', '1');
+INSERT INTO `slide` VALUES ('2', '轮播图', '/upload/slide/38e707208c12eed5ee68dfca5a34ef55.jpeg', '1522588374', '1', '1');
+INSERT INTO `slide` VALUES ('3', '轮播图', '/upload/slide/adfe8cf5fe718a9d593b3455bc95003d.jpeg', '1522588200', '1', '1');
