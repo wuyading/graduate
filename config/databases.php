@@ -6,9 +6,9 @@
 
 return array(
     'default'=>array(
-        'dsn' => 'mysql:host=localhost;dbname=kexie',
+        'dsn' => 'mysql:host=39.108.87.10;dbname=kexie',
         'username' => 'root',
-        'password' => '',
+        'password' => 'Soup@1023',
         'charset' => 'utf8',
 
         'enableSchemaCache' => true,

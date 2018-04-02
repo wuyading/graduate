@@ -171,7 +171,7 @@
         <?php endforeach;?>
     </div>
     <div class="export-join">
-        <a href="<?=toRoute('/index/my_project')?>">我有项目在铜仁</a>
+        <a href="<?=toRoute('/index/my_project')?>">我有项目</a>
     </div>
 </div>
 
