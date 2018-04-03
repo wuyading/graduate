@@ -37,7 +37,7 @@
                     <li>
                         <a href="<?= toRoute() ?>">首页</a>
                         <i class="fa fa-circle"></i>
-                        <a href="#">活动剪影</a>
+                        <a href="#">产品中心</a>
                     </li>
                 </ul>
 

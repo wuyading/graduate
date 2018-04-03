@@ -10,7 +10,7 @@
 <?=$app->view('@http/common/header');?>
 
 <div class="main-content">
-    <p class="apply-title">苏州帮扶铜仁教授专家登记表</p>
+    <p class="apply-title">苏州教授专家登记表</p>
     <form id="registrationForm" action="<?=toRoute('/index/ajax_save_expert')?>" method="post" enctype="multipart/form-data">
         <p class="tips">*请完整填写下列信息</p>
         <p class="title">基本信息</p>
@@ -83,16 +83,16 @@
         </div>
         <p class="title">活动基本情况</p>
         <div class="act-info">
-            <span>您有无对口帮扶西部地区的经历？如有，从事过哪方面的服务：</span>
+            <span>您有无技术研发经历？如有，从事过哪方面的服务：</span>
             <input type="text" name="info[west_experience]"/>
 
         </div>
         <div class="act-info">
-            <span>您能参与帮扶铜仁活动的时间？</span>
+            <span>您能参与技术研发的时间？</span>
             <input type="text" name="info[use_time]"/>
         </div>
         <div class="act-info item">
-            <span>您希望参与帮扶铜仁活动的形式？</span>
+            <span>您的研发来源？</span>
             <input type="hidden" name="info[use_way]" id="way">
             <input type="checkbox" data-val="1" id="hh"/>技术咨询
             <input type="checkbox" data-val="2"/>学术交流
@@ -110,8 +110,7 @@
             <img src="" class="img2" />
         </div>
         <p class="title">个人承诺</p>
-        <p class="promise">我志愿参加“苏州百名教授专家进铜仁”帮扶活动，在活动主办方协调组织下，认真完成相应的工作，努力为铜仁地方经济社会发展献计献策，
-            尽自己所能帮助铜仁解决发展中面临的实际困难和问题。</p>
+        <p class="promise">我志愿参加苏州冬夏科技的活动</p>
         <div class="agree">
             <input type="checkbox" name="info['is_commitment']" value="1" checked/>我同意
         </div>

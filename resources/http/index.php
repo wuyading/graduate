@@ -31,7 +31,7 @@
         <li><a href=<?=toRoute('/areas/index')?> >公司简介</a></li>
         <li><a href=<?=toRoute('/expert/index')?> >专家风采</a></li>
         <li><a href=<?=toRoute('/project/index')?> >对接项目</a></li>
-        <li><a href=<?=toRoute('/activity/index')?> >活动剪影</a></li>
+        <li><a href=<?=toRoute('/activity/index')?> >产品中心</a></li>
     </ul>
 </header>
 
@@ -178,7 +178,7 @@
 <div class="grey-bg">
     <div class="activity-photos">
         <div class="title-area">
-            <p class="area-title">活动剪影</p>
+            <p class="area-title">产品中心</p>
             <div class="title-line"></div>
         </div>
         <p class="activity-title"><?=$activitys['title'];?></p>

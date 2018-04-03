@@ -27,7 +27,7 @@ use Zilf\System\Zilf;
             <li><a href=<?=toRoute('/areas/index')?> >公司介绍</a></li>
             <li><a href=<?=toRoute('/expert/index')?> >专家风采</a></li>
             <li><a href=<?=toRoute('/project/index')?> >对接项目</a></li>
-            <li><a href=<?=toRoute('/activity/index')?> >活动剪影</a></li>
+            <li><a href=<?=toRoute('/activity/index')?> >产品中心</a></li>
         </ul>
     </div>
 </header>

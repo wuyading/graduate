@@ -84,7 +84,7 @@
                     <li class="nav-item start <?=(route_info('controller') == 'activity') ? 'active' : ''?>">
                         <a href="<?=toRoute('activity')?>" class="nav-link ">
                             <i class="icon-bar-chart"></i>
-                            <span class="title">活动剪影</span>
+                            <span class="title">公司产品</span>
                         </a>
                     </li>
                 </ul>

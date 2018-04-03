@@ -17,7 +17,7 @@
                         <a href=<?=toRoute('/areas/index')?> >公司简介</a>
                         <a href=<?=toRoute('/expert/index')?> >专家风采</a>
                         <a href=<?=toRoute('/project/index')?> >经营项目</a>
-                        <a href=<?=toRoute('/activity/index')?> >公司活动</a>
+                        <a href=<?=toRoute('/activity/index')?> >产品中心</a>
                     </dd>
                 </dl>
             </div>
